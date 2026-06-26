@@ -1,0 +1,33 @@
+body {
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.003em;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.0;
+  letter-spacing: -0.015em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.serif {
+  font-family: var(--font-display);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+a {
+  transition: color var(--transition);
+}

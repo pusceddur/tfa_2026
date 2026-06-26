@@ -1,0 +1,57 @@
+@media (max-width: 1199.98px) {
+  .nav {
+    margin-left: auto;
+  }
+  .site-header-cta {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .options {
+    grid-template-columns: 1fr 1fr;
+  }
+  .site-footer-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .sched-tab {
+    padding: 12px 13px;
+    gap: 6px;
+  }
+  .sched-tab-day {
+    font-size: 19px;
+  }
+  .sched-tab-meta {
+    font-size: 9px;
+    letter-spacing: .05em;
+  }
+  .day-head {
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+  .day-count {
+    margin-left: 0;
+  }
+  .site-footer-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .ar-cta-buy {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .ticket-price {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .tk-hero-title {
+    font-size: 16vw;
+  }
+  .ar-hero-title {
+    font-size: 16vw;
+  }
+}
